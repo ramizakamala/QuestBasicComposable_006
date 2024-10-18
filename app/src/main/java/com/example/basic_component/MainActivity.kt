@@ -85,6 +85,7 @@ fun BasicCompose(miza: Modifier = Modifier) {
                 .size(180.dp)
                 .padding(top = 10.dp)
         )
+        Text(text = "Nama", fontSize =30.sp, fontStyle = FontStyle.Italic)
 
     }
 }
