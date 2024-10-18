@@ -99,7 +99,10 @@ fun BasicCompose(miza: Modifier = Modifier) {
         Box(
             modifier = miza
                 .size(550.dp),
-        )
+            contentAlignment = Alignment.Center  // Mengatur konten di tengah
+        ) {
+
+        }
     }
 }
 
