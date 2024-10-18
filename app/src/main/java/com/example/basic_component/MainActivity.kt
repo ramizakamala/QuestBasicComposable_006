@@ -102,6 +102,13 @@ fun BasicCompose(miza: Modifier = Modifier) {
             contentAlignment = Alignment.Center  // Mengatur konten di tengah
         ) {
 
+            Box(
+                modifier = miza
+                    .size(100.dp)
+                    .clip(RectangleShape)
+                    .background(Color.Black.copy(alpha = 0.5f))
+            )
+
         }
     }
 }
