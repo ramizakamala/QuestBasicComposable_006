@@ -86,7 +86,7 @@ fun BasicCompose(miza: Modifier = Modifier) {
                 .padding(top = 10.dp)
         )
         Text(text = "Nama", fontSize =30.sp, fontStyle = FontStyle.Italic)
-
+        Text(text = "Ramiza Kamala Tatsuru", fontSize =30.sp, fontWeight = FontWeight.Bold, color = Color.Blue)
     }
 }
 
