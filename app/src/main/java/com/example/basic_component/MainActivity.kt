@@ -63,7 +63,13 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BasicCompose(miza: Modifier = Modifier) {
-
+    Column(
+        modifier = miza
+            .fillMaxSize()
+            .padding(6.dp),
+        verticalArrangement = Arrangement.spacedBy(2.dp),
+        horizontalAlignment = Alignment.CenterHorizontally)
+    }
 }
 
 
