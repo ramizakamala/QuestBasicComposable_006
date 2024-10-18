@@ -78,6 +78,7 @@ fun BasicCompose(miza: Modifier = Modifier) {
                 )
             )
         )
+        Text(text = "ini halaman Login", fontSize = 17.sp, fontStyle = FontStyle.Italic)
     }
 }
 
