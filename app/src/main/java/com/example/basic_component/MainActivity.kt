@@ -72,7 +72,7 @@ fun BasicCompose(miza: Modifier = Modifier) {
         Text(text = "Login", fontSize = 30.sp, fontWeight = FontWeight.Bold,
             style = TextStyle(
                 shadow = Shadow(
-                    color = Color.Black,
+                    color = Color.Blue,
                     offset = Offset(4f, 4f),  // Mengatur offset shadow
                     blurRadius = 8f  // Mengatur seberapa buram bayangan
                 )
