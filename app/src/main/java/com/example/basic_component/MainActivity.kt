@@ -96,6 +96,10 @@ fun BasicCompose(miza: Modifier = Modifier) {
                 )
             )
         )
+        Box(
+            modifier = miza
+                .size(550.dp),
+        )
     }
 }
 
