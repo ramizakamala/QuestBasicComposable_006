@@ -69,7 +69,15 @@ fun BasicCompose(miza: Modifier = Modifier) {
             .padding(6.dp),
         verticalArrangement = Arrangement.spacedBy(2.dp),
         horizontalAlignment = Alignment.CenterHorizontally){
-        Text(text = "Login", fontSize = 30.sp, fontWeight = FontWeight.Bold,)
+        Text(text = "Login", fontSize = 30.sp, fontWeight = FontWeight.Bold,
+            style = TextStyle(
+                shadow = Shadow(
+                    color = Color.Black,
+                    offset = Offset(4f, 4f),  // Mengatur offset shadow
+                    blurRadius = 8f  // Mengatur seberapa buram bayangan
+                )
+            )
+        )
     }
 }
 
