@@ -68,7 +68,8 @@ fun BasicCompose(miza: Modifier = Modifier) {
             .fillMaxSize()
             .padding(6.dp),
         verticalArrangement = Arrangement.spacedBy(2.dp),
-        horizontalAlignment = Alignment.CenterHorizontally)
+        horizontalAlignment = Alignment.CenterHorizontally){
+        Text(text = "Login", fontSize = 30.sp, fontWeight = FontWeight.Bold,)
     }
 }
 
