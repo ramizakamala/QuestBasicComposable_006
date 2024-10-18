@@ -87,7 +87,15 @@ fun BasicCompose(miza: Modifier = Modifier) {
         )
         Text(text = "Nama", fontSize =30.sp, fontStyle = FontStyle.Italic)
         Text(text = "Ramiza Kamala Tatsuru", fontSize =30.sp, fontWeight = FontWeight.Bold, color = Color.Blue)
-        Text(text = "20220140006", fontSize = 20.sp)
+        Text(text = "20220140006", fontSize = 20.sp,
+            style= TextStyle(
+                shadow = Shadow(
+                    color = Color.Blue,
+                    offset = Offset(4f, 4f),  // Mengatur offset shadow
+                    blurRadius = 8f  // Mengatur seberapa buram bayangan
+                )
+            )
+        )
     }
 }
 
