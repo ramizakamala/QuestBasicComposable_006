@@ -79,6 +79,13 @@ fun BasicCompose(miza: Modifier = Modifier) {
             )
         )
         Text(text = "ini halaman Login", fontSize = 17.sp, fontStyle = FontStyle.Italic)
+        Image(painter = painterResource(id = R.drawable.download),
+            contentDescription = null,
+            modifier = miza
+                .size(180.dp)
+                .padding(top = 10.dp)
+        )
+
     }
 }
 
