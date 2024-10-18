@@ -108,7 +108,15 @@ fun BasicCompose(miza: Modifier = Modifier) {
                     .clip(RectangleShape)
                     .background(Color.Black.copy(alpha = 0.5f))
             )
+            Image(
+                painter = painterResource(id = R.drawable.miza),
+                contentDescription = null,
+                modifier = miza
+                    .size(400.dp)
+                    .clip(RectangleShape),
+                contentScale = ContentScale.Crop
 
+            )
         }
     }
 }
