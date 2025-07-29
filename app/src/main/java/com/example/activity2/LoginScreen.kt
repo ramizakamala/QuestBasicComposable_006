@@ -34,3 +34,5 @@ fun LoginScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top
     ) {
+        Spacer(modifier = Modifier.height(40.dp))
+
