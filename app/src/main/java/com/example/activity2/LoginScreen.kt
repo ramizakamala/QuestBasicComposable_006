@@ -56,4 +56,13 @@ fun LoginScreen() {
             modifier = Modifier.size(300.dp)
         )
 
+        Spacer(modifier = Modifier.height(5.dp))
+
+        Text(
+            text = "Nama",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.SemiBold,
+            color = Color.Black
+        )
+
 }
