@@ -43,4 +43,8 @@ fun LoginScreen() {
         )
         Spacer(modifier = Modifier.height(2.dp))
 
+        Text(
+            text = "Halaman Login",
+            style = TextStyle(fontSize = 16.sp, color = Color.Gray)
+        )
 }
