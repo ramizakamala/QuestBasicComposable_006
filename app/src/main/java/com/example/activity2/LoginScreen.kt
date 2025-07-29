@@ -71,5 +71,14 @@ fun LoginScreen() {
             color = Color.Black
         )
 
+        Spacer(modifier = Modifier.height(5.dp))
+
+        Text(
+            text = "20220140006",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
+
 
 }
