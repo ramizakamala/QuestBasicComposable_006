@@ -64,5 +64,12 @@ fun LoginScreen() {
             fontWeight = FontWeight.SemiBold,
             color = Color.Black
         )
+        Text(
+            text = "Ramiza Kamala Tatsuru",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.SemiBold,
+            color = Color.Black
+        )
+
 
 }
